@@ -20,13 +20,25 @@
     <link rel="stylesheet" href="css/styles.css" />
     <script src="js/script.js" defer></script>
   </head>
+  <!-- Google tag (gtag.js) -->
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=G-X1LP3LFMN1"
+  ></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "G-X1LP3LFMN1");
+  </script>
 
   <body>
     <div class="container">
       <img class="ruby" src="img/ruby-cat.png" />
-      <h1>
-        Sharon's Pet Rescue
-      </h1>
+      <h1>Sharon's Pet Rescue</h1>
       <div class="available">
         <h2>Pet Meet & Greet!</h2>
         <ul class="all-pets"></ul>
